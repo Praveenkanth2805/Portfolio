@@ -1,0 +1,28 @@
+*{
+  scroll-behavior:  smooth;
+}
+#home,#about,#contact,#project, #bottem{
+  padding: 10px;
+  background-color: turquoise;
+  border-radius: 5px;
+  animation-name: fadein;
+  animation-duration: 2s;
+  animation-timing-function: lenear;
+}
+h2{
+  text-align:  center;
+}
+#p1img,#p2img {
+  margin-left: 100px;
+}
+#link-website{
+  margin-left: 140px;
+}
+#bottem{
+  background-color:;
+  text-align:  center;
+}
+@keyframes fadein {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
